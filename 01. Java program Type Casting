@@ -1,0 +1,9 @@
+public class TypeCasting
+{
+	public static void main(String[] args)
+	{
+		int num1=40,num2=6;
+		float div=(float)num1/num2;
+		System.out.println(div);
+	}
+}
