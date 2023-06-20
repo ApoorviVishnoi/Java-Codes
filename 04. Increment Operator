@@ -1,0 +1,12 @@
+public class OperatorIncrement
+{
+	public static void main(String[] args)
+	{
+		int x=10;
+		System.out.println("Before increment value of x:");
+		System.out.println(x);
+		x++;
+		System.out.println("After increment value of x:");
+		System.out.println(x);
+	}
+}
