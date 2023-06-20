@@ -5,7 +5,7 @@ public class OperatorIncrement
 		int x=10;
 		System.out.println("Before increment value of x:");
 		System.out.println(x);
-		x++;
+		++x;
 		System.out.println("After increment value of x:");
 		System.out.println(x);
 	}
