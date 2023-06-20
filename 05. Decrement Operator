@@ -1,0 +1,12 @@
+public class OperatorDecrement
+{
+	public static void main(String[] args)
+	{
+		int x=10;
+		System.out.println("Before decrement value of x:");
+		System.out.println(x);
+		--x;
+		System.out.println("After decrement value of x:");
+		System.out.println(x);
+	}
+}
