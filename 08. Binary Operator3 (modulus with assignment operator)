@@ -1,0 +1,9 @@
+public class BinaryOperators5
+{
+	public static void main(String[] args)
+	{
+		int num=113;
+		num%=10;
+		System.out.println(num);	
+   	}
+}
