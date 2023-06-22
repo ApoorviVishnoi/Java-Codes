@@ -1,0 +1,9 @@
+public class ComparisonOperator1
+{
+	public static void main(String[] args)
+	{
+		int x=10, y=15;
+		boolean z=x>y;
+		System.out.println(z);	
+   	}
+}
