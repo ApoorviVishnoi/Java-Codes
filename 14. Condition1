@@ -3,28 +3,28 @@ public class Condition1
 	public static void main(String[] args)
 	{
 		int ch='/';
-		int x1=80,y1=50;
+		int x=80,y=50;
 		if(ch=='+')
 		{
-		  int z1=x1+y1;
+		  int z1=x+y;
 		  System.out.println(z1);
 		}
 
 		if(ch=='-')
 		{
-		  int z2=x1-y1;
+		  int z2=x-y;
 		  System.out.println(z2);
 		}
 
 		if(ch=='*')
 		{
-		  int z3=x1*y1;
+		  int z3=x*y;
 		  System.out.println(z3);
 		}
 
 		if(ch=='/')
 		{
-		  float z4=(float)x1/y1;
+		  float z4=(float)x/y;
 		  System.out.println(z4);
 		}
 	}
