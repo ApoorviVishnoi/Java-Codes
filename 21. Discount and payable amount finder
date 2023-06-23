@@ -1,0 +1,41 @@
+public class ConditionDemo {
+
+	public static void main(String[] args) 
+	{
+		int amount=9000;
+	    if(amount<2000) {
+	    	System.out.println("Sorry there is no discount");
+	    }
+	    else
+	    {
+	      double discount=0.0;
+		  if(amount>=8000)
+		  {
+		    discount=amount*0.20;
+		  }
+		  else 
+		  {
+			if(amount>=6000)
+		    {
+			  discount=amount*0.15;
+			}
+			else 
+			{
+				if(amount>=4000)
+				{
+					discount=amount*0.10;
+				}
+				else 
+				{
+					if(amount>=2000)
+					{
+						discount=amount*0.05;
+					}
+				}
+			}
+		}
+		System.out.println("discount is "+discount);
+		System.out.println("Payable amount is "+(amount-discount));
+	    }
+	}
+}
