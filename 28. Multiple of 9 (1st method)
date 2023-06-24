@@ -2,7 +2,7 @@ public class Multiple {
 
 	public static void main(String[] args) {
 		int num=18;
-  	if(num%2==0 && num%9==0)
+  	if(num%9==0 && num%2==0)
 		{
 			System.out.println("Valid");
 		}
