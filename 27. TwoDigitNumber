@@ -1,0 +1,15 @@
+public class TwoDigitNumber {
+
+	public static void main(String[] args) {
+		int num=2;
+		if(num>=10 && num<=99)
+		{
+			System.out.println("Valid");
+		}
+		else
+		{
+			System.out.println("Invalid");
+		}
+	}
+
+}
