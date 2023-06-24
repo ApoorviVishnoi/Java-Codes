@@ -1,0 +1,15 @@
+public class Multiple3 {
+
+	public static void main(String[] args) {
+		int num=24;
+		if(num%12==0)
+		{
+			System.out.println("valid");
+		}
+		else
+		{
+			System.out.println("Invalid");
+		}
+	}
+
+}
