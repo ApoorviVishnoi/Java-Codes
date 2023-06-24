@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class OddEven {
+
+	public static void main(String[] args) {
+		int n = 0;
+		if(n%2!=0)
+		{
+			System.out.println("Not valid");
+		}
+		else
+		{
+			if(n>=20)
+			{
+				
+			}
+		}
+	}
+}
