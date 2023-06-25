@@ -1,0 +1,9 @@
+public class TernaryOperator {
+
+	public static void main(String[] args) {
+		int num1=2902,num2=67,num3=465;
+		int res=num1>num2?num1:num2;
+		res=res>num3?res:num3;
+		System.out.println(res);
+	}
+}
