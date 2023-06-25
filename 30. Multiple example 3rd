@@ -11,5 +11,4 @@ public class Multiple3 {
 			System.out.println("Invalid");
 		}
 	}
-
 }
