@@ -1,0 +1,14 @@
+import java.util.Scanner;
+public class Table {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter the number:");
+		int num = sc.nextInt();
+		for(int ctr=1;ctr<10;ctr++)
+		{
+			int res=num*ctr;
+			System.out.println(res);
+		}
+	}
+}
