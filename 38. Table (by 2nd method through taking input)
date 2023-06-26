@@ -7,7 +7,7 @@ public class TableAddition {
 		int num = sc.nextInt();
 		int sum=num;
 		System.out.println(num);
-		for(int ctr=1;ctr<10;ctr++)
+		for(int ctr=1;ctr<=9;ctr++)
 		{
 			sum=sum+num;
 			System.out.println(sum);
