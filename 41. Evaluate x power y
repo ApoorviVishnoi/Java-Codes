@@ -1,0 +1,12 @@
+public class Power{
+
+	public static void main(String[] args) {
+		int x=2,y=5;
+		int p=x;
+		for(int c=1;c<y;c++)
+		{
+			p=p*x;
+		}
+		System.out.println(p);
+	}
+}
