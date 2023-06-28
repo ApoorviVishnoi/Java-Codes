@@ -1,0 +1,17 @@
+import java.util.Scanner;
+public class Factors{
+	public static void main(String[] args)
+	{
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter the number:");
+		int num=sc.nextInt();
+		int h=num/2;
+		for(int ctr=2;ctr<=h;ctr++)
+		{
+			if(num%ctr==0)
+			{
+				System.out.println(ctr);
+			}
+		}
+	}
+}
