@@ -1,0 +1,14 @@
+public class Factors{
+	public static void main(String[] args)
+	{
+		int num=12;
+		int h=num/2;
+		for(int ctr=2;ctr<=h;ctr++)
+		{
+			if(num%ctr==0)
+			{
+				System.out.println(ctr);
+			}
+		}
+	}
+}
