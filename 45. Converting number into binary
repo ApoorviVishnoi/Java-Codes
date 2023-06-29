@@ -7,9 +7,9 @@ public class Binary {
 		String res="";
 		while(num!=0)
 		{
-			int rem=num%2;
-			res=rem+res;
-			num=num/2;
+		     int rem=num%2;
+		     res=rem+res;
+		     num=num/2;
 		}
 		System.out.println(res);
 	}
