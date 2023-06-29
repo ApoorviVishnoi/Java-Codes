@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class NumberConversion {
+	public static void convert(int num,int base) 
+	{
+		String res="";
+		while(num!=0)
+		{
+			int rem=num%base;
+			if(rem>=10 && rem<=15){
+				res=(char)(rem+55)+res;
+			}
+			else
+			{
+				res=rem+res;
+			}
+			num=num/base;
+		}
+		if(base==2)
+			System.out.println("Binary:"+res);
+		else if(base==8)
+			System.out.println("Octal:"+res);
+		else if(base==16)
+			System.out.println("HexaDecimal:"+res);
+	}
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the number:");
+		int num=sc.nextInt();
+		convert(num,2);
+		convert(num,8);
+		convert(num,16);
+	}
+}
