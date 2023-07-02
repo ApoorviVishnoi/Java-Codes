@@ -20,5 +20,4 @@ public class HexaDecimalShortcut {
 		}
 		System.out.println(res);
 	}
-
 }
