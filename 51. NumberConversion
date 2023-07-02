@@ -1,7 +1,5 @@
 import java.util.Scanner;
-
 public class NumberConversion {
-
 	public static void convert(int num,int base) 
 	{
 		String res="";
@@ -24,7 +22,6 @@ public class NumberConversion {
 		else if(base==16)
 			System.out.println("HexaDecimal:"+res);
 	}
-
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the number:");
@@ -33,5 +30,4 @@ public class NumberConversion {
 		convert(num,8);
 		convert(num,16);
 	}
-
 }
