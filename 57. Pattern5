@@ -1,0 +1,23 @@
+public class Pattern5 {
+
+	public static void main(String[] args) {
+		int n=6;
+		for(int r=1;r<=n;r++)
+		{
+			//loop for space before *
+			for(int s=n-r;s>=1;s--)
+			{
+				System.out.print(" ");
+			}
+			 //loop too display r *
+			for(int c=n-r+1;c<=n;c++)
+			{
+				System.out.print(c);
+			}
+			System.out.println();
+			
+		}
+
+	}
+
+}
