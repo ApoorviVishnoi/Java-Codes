@@ -11,5 +11,4 @@ public class Pttern2 {
 			System.out.println();
 		}
 	}
-
 }
