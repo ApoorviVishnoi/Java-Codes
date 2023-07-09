@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class NumberConversion {
 	public static void convert(int num,int base) 
 	{
@@ -31,4 +30,5 @@ public class NumberConversion {
 		convert(num,8);
 		convert(num,16);
 	}
+
 }
