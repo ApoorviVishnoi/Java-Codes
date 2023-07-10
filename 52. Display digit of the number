@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class DigitDemo {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -11,5 +12,7 @@ public class DigitDemo {
 			System.out.println(rem);
 			rem=num/10;
 		}
+
 	}
+
 }
