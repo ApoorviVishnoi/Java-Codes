@@ -1,5 +1,4 @@
 public class App2 {
-
 	public static void main(String[] args) {
 		int[] x=new int[]{0,3,14,15,1,77,8,98};
 		//Display those elements that has two digits
