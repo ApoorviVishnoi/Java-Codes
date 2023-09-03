@@ -1,0 +1,14 @@
+public class App2 {
+
+	public static void main(String[] args) {
+		int[] x=new int[]{0,3,14,15,1,77,8,98};
+		//Display those elements that has two digits
+		for(int i=0;i<x.length;i++)
+		{
+			if(x[i]>9 && x[i]<100)
+			{
+				System.out.println(x[i]);
+			}
+		}
+	}
+}
