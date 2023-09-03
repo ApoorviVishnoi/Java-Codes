@@ -1,5 +1,4 @@
 public class App4 {
-
 	public static void main(String[] args) {
 		int[] x=new int[]{0,3,14,15};
 		//copy all numbers of array x into a new array y of type int with loop
