@@ -1,0 +1,13 @@
+public class App5 {
+	public static void main(String[] args) {
+		int[] x=new int[]{0,3,14,15};
+  
+		//copy all numbers into a new array of type int with loop
+  
+		int[] y=new int[x.length];
+		for(int i=x.length;i<0;i++)
+		{
+			System.out.println(y[i]);			
+		}
+	}
+}
