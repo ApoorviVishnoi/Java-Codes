@@ -1,0 +1,26 @@
+
+public class App {
+
+	public static void main(String[] args) {
+//		int[] num= new int[] {12,14,16,11,34,20,55,16}; //if you want to put these values by yourself then you can remove new int[]
+		int[] num= {12,14,16,11,34,20,55,16,90};
+//		for(int i=0;i<8;i++) //every time we add or remove the data from array we need to change the i<8 so for that we can use num.length
+		for(int i=0;i<num.length;i++)
+			         //num=array ka refernce
+			         //length=array ka size,its a local variable that is created in every array ,and size of array is stored in it 
+		{
+			System.out.println(num[i]);
+		}
+//		float[] num= new float[5];
+//		String[] num=new String[5];
+		//Reference variable num will be created 
+		//array of type int and size 5 will be created and initialized by value 0
+		//Reference of array will be returned and assigned to variable num
+//		System.out.println(num[0]);
+//		System.out.println(num[1]);
+//		System.out.println(num[2]);
+//		System.out.println(num[3]);
+//		System.out.println(num[4]);
+	}
+
+}
