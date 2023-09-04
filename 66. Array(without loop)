@@ -1,0 +1,13 @@
+public class App6 {
+
+	public static void main(String[] args) {
+		int[] x=new int[]{0,3,14,15};
+		//copy all numbers into a new array of type int without loop
+		int[] y=new int[x.length];
+		y[0]=x[3];
+		y[1]=x[2];
+		y[2]=x[1];
+		y[3]=x[0];
+		System.out.println(y[0]);
+	}
+}
