@@ -1,5 +1,4 @@
 public class App7 {
-
 	public static void main(String[] args) {
 		int[] x=new int[]{10,5,30,190};
 		//copy all numbers into a new array in reverse order of type int without loop
