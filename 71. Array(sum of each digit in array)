@@ -1,0 +1,13 @@
+public class App11 {
+
+	public static void main(String[] args) {
+		int[] x=new int[]{10,5,300,10,230};
+		//Find and display sum of all no.
+		int sum=x[0];
+		for(int i=1;i<x.length;i++)
+		{
+			sum=sum+x[i];
+		}
+		System.out.println(sum);
+	}
+}
