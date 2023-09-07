@@ -1,0 +1,22 @@
+public class App12 {
+
+	public static void main(String[] args) {
+		int[] x=new int[]{10,5,300,10,230};
+		//Find and display max,min,sum,avg
+		int max=x[0];
+		int min=x[0];
+		int sum=x[0];
+		for(int i=1;i<x.length;i++)
+		{
+			if(x[i]>max)
+				max=x[i];
+			if(x[i]<min)
+				min=x[i];
+			sum=sum+x[i];
+		}
+		System.out.println("Largest no.:"+max);
+		System.out.println("Smallest no.:"+min);
+		System.out.println("Sum:"+sum);
+		System.out.println("Average:"+((float)sum/x.length));
+	}
+}
