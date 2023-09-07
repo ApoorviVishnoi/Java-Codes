@@ -1,0 +1,14 @@
+public class App10 {
+
+	public static void main(String[] args) {
+		int[] x=new int[]{10,5,300,10,230};
+		//Find and display smallest no from array with loop
+		int s=x[0];
+		for(int i=1;i<x.length;i++)
+		{
+			if(x[i]<s)
+				s=x[i];
+		}
+		System.out.println(s);
+	}
+}
