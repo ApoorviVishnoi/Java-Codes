@@ -1,5 +1,4 @@
 public class App2 {
-
 	public static void main(String[] args) {
 		int[] x= {1,67,45,90,24,123,56,89,80,10};
 		int oddcount=0;
