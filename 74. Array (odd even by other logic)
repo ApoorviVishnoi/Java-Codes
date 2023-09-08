@@ -1,0 +1,18 @@
+public class App2 {
+
+	public static void main(String[] args) {
+		int[] x= {1,67,45,90,24,123,56,89,80,10};
+		int oddcount=0;
+		for(int i=0;i<x.length;i++)
+		{
+			if(x[i]%2!=0)
+			{
+				oddcount++;
+			}
+		}
+		int evencount=x.length-oddcount;
+		System.out.println("Array have "+ evencount+" evens and "+oddcount+" odds");
+
+	}
+
+}
