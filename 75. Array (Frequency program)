@@ -17,5 +17,4 @@ public class App3 {
 	    }
 	    System.out.println("Frequency of a no. is: "+c);
 	}
-
 }
