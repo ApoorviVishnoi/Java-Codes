@@ -1,5 +1,6 @@
 import java.util.Scanner;
 public class App3 {
+
 	public static void main(String[] args) {
 		
 	    //Accept the no. from user and accept the frequency/occurrence/repeat of that no. in array
