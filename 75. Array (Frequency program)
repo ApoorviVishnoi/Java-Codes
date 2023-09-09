@@ -1,10 +1,11 @@
 import java.util.Scanner;
 public class App3 {
-
 	public static void main(String[] args) {
-		int[] x= {1,67,45,2,1,1,90,24,123,56,89,80,10};
-		//Accept the no. from user and accept the frequency/occurrence/repeat of that no. in array
-		//output must be like this : frequency of the no. is 2
+		
+	    //Accept the no. from user and accept the frequency/occurrence/repeat of that no. in array
+	    //output must be like this : frequency of the no. is 2
+
+	    int[] x= {1,67,45,2,1,1,90,24,123,56,89,80,10};
 	    Scanner sc =new Scanner(System.in);
 	    System.out.println("Enter the no.:");
 	    int y =sc.nextInt();
@@ -15,7 +16,5 @@ public class App3 {
 	    		c++;
 	    }
 	    System.out.println("Frequency of a no. is: "+c);
-
 	}
-
 }
