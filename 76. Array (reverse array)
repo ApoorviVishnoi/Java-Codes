@@ -1,0 +1,17 @@
+public class App {
+
+	public static void main(String[] args) {
+		int[] x= {34,1,87,60,35,800,134};
+		int j=x.length-1;
+		for(int i =0;i<j;i++)
+		{
+			int y=x[i];
+			x[i]=x[j];
+			x[j]=y;
+			j--;
+		}
+		for (int value : x) {
+            System.out.println(value);
+		}
+	}
+}
