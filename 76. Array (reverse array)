@@ -1,5 +1,4 @@
 public class App {
-
 	public static void main(String[] args) {
 		int[] x= {34,1,87,60,35,800,134};
 		int j=x.length-1;
