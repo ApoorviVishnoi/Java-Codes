@@ -1,0 +1,26 @@
+public class App6 {
+
+	public static void main(String[] args) {
+		//program for Sum of each digit of the array
+		int[] x= {234,367,45,2,1,1,90,24,123,56,89,80,10};
+		//Loop to get number one by one from array 
+		int total=0;
+		for(int i=0;i<x.length;i++)
+		{
+			int num=x[i];
+			//loop to find sum of each digit
+			int sum=0;
+			while(num!=0)
+			{
+				int rem=num%10;
+				sum=sum+rem;
+				num=num/10;
+			}
+			//code to display sum
+			System.out.println("number wise sum: "+sum);
+			total+=sum;
+		}
+		System.out.println("sum of sums: "+total);
+	}
+
+}
