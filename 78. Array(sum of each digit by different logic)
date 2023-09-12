@@ -1,5 +1,4 @@
 public class App6 {
-
 	public static void main(String[] args) {
 
 		//program for Sum of each digit of the array
