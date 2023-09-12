@@ -1,0 +1,21 @@
+public class App8 {
+
+	public static void main(String[] args) {
+		//display those no. from the array that are greater then adjacent no.
+		int[] x= {190,23,45,24,98,127,6,78};
+		int li=x.length-1;
+		if(x[0]>x[1])
+		{
+			System.out.println(x[0]);
+		}
+		for(int i=1
+				;i<li;i++)
+		{
+			if(x[i]>x[i-1] && x[i]>x[i+1])
+				System.out.println(x[i]);
+		}
+		if(x[li]>x[li-1])
+			System.out.println(x[li]);
+	}
+
+}
