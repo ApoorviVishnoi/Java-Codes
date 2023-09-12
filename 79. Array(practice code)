@@ -1,5 +1,4 @@
 public class App7 {
-
 	public static void main(String[] args) {
 		//program for Sum of each digit of the array by different logic
 		int[] x= {234,367,45,2,1,1,90,24,123,56,89,80,10};
