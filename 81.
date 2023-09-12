@@ -1,0 +1,22 @@
+public class App9 {
+
+	public static void main(String[] args) {
+		//display those no. that are unique in both
+		int[] x= {10,20,56,4,16,7};
+		int[] y= {4,10,90,20,67,89,12};
+		for(int i=0;i<x.length;i++)
+		{
+			int n1=x[i];
+			for(int j=0;j<y.length;j++)
+			{
+				int n2=y[j];
+				if(n1==n2)
+				{
+					System.out.println(n1);
+					break;
+				}
+			}
+			
+		}
+		
+	}
