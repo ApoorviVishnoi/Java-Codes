@@ -1,2 +1,1 @@
-# Java-Codes
-New repository 
+notes of java from starting 
