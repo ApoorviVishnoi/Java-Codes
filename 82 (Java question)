@@ -12,5 +12,4 @@ Ans - A few of the significant features of Java Programming Language are:
 1) Easy: Java is a language that is considered easy to learn. One fundamental concept of OOP Java has a catch to understand.
 2) Secured Feature: Java has a secured feature that helps develop a virus-free and tamper-free system for the users.
 3) OOP: OOP stands for Object-Oriented Programming language. OOP signifies that, in Java, everything is considered an object.
-
 Independent Platform: Java is not compiled into a platform-specific machine; instead, it is compiled into platform-independent bytecode. This code is interpreted by the Virtual Machine on which the platform runs.
