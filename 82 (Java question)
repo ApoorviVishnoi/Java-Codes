@@ -6,6 +6,7 @@ n the context of Compiler and Interpreter.
 Java refers to a compiled and interpreted language. In contrast, C++ is only a compiled language.
 In Java, the source code is the compiled output is a platform-independent byte code.
 In C++, the source program is compiled into an object code that is further executed to produce an output.
+
 Q2. List the features of the Java Programming language?
 Ans - A few of the significant features of Java Programming Language are:
 1) Easy: Java is a language that is considered easy to learn. One fundamental concept of OOP Java has a catch to understand.
