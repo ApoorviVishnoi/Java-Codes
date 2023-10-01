@@ -2,7 +2,7 @@ import javax.swing.JFrame;
 
 public class FrameDemo {
 	public static void main(String[] args) {
-		JFrame fr=new JFrame("calculator");
+		JFrame fr=new JFrame("calculator");  //title is calculator
 		fr.setSize(600,400);
 		fr.setLocationRelativeTo(null);
 		fr.setVisible(true);
