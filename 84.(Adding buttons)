@@ -16,7 +16,7 @@ public class FrameDemo2 {
 		//code to add button to container(here frame is a container
 		fr.add(bt1);
 		fr.add(bt2);
-		fr.setVisible(true);
+		fr.setVisible(true); //try to write it at the end
 	}
 
 	public static void main(String[] args) {
