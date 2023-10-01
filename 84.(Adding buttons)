@@ -18,6 +18,7 @@ public class FrameDemo2 {
 		fr.add(bt2);
 		fr.setVisible(true);
 	}
+
 	public static void main(String[] args) {
 		new FrameDemo2(); //object is created
 	}
