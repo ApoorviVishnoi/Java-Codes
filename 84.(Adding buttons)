@@ -2,12 +2,6 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 
 public class FrameDemo2 {
-
-
-
-
-
-
 	JFrame fr=new JFrame("calculator");
 	JButton bt1=new JButton("Submit");
 	JButton bt2=new JButton("okay");
