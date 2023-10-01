@@ -9,6 +9,7 @@ public class FrameDemo2 {
 		fr.setSize(400,400);
 		fr.setLocationRelativeTo(null);
 		fr.setLayout(null); //if we do not call this method then only one button will add and its size will became the size of frame
+		
 		//create button
 		//set location of button
 		bt1.setBounds(100,30,100,30);
