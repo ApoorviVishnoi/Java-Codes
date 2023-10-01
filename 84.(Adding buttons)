@@ -1,0 +1,24 @@
+import javax.swing.JButton;
+import javax.swing.JFrame;
+
+public class FrameDemo2 {
+	JFrame fr=new JFrame("calculator");
+	JButton bt1=new JButton("Submit");
+	JButton bt2=new JButton("okay");
+	public FrameDemo2(){
+		fr.setSize(400,400);
+		fr.setLocationRelativeTo(null);
+		fr.setLayout(null); //if we do not call this method then only one button will add and its size will became the size of frame
+		//create button
+		//set location of button
+		bt1.setBounds(100,30,100,30);
+		bt2.setBounds(210,30,100,30);//(x,y,width,height)
+		//code to add button to container(here frame is a container
+		fr.add(bt1);
+		fr.add(bt2);
+		fr.setVisible(true);
+	}
+	public static void main(String[] args) {
+		new FrameDemo2();
+	}
+}
