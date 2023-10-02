@@ -1,0 +1,44 @@
+import java.awt.Font;
+
+import javax.swing.*; //all classes comes in this package thats why we use * if we use javax.swing.button then only button class will be import 
+
+public class LoginForm {
+	JFrame fr=new JFrame("Login Form");
+	JLabel l1=new JLabel("Enter ID");
+	JLabel l2=new JLabel("Enter Password");
+	JTextField tf1=new JTextField();
+	JPasswordField tf2=new JPasswordField();
+	JButton bt1=new JButton("Login");
+	JButton bt2=new JButton("cancel");
+	public LoginForm(){
+		fr.setSize(400,300);
+		fr.setLocationRelativeTo(null); //to show frame at the center of the screen
+		fr.setLayout(null);//if we do not call this method then only one button will add and its size will became the size of frame
+		fr.setResizable(false); //by calling this method user can not resize the form
+		addComponent(); //we made this method so that this code in constructor will not become heavy
+		fr.setVisible(true);
+	}
+	private void addComponent() {
+		Font font=new Font("arial",0,19);
+		l1.setBounds(30,50,120,30);
+		l1.setFont(font);
+		fr.add(l1);
+		tf1.setFont(font);
+		tf1.setBounds(150,50,200,30);
+		fr.add(tf1);
+		
+		l2.setFont(font);
+		l2.setBounds(30,110,120,30);
+		fr.add(l2);
+		tf2.setBounds(150,110,200,30);
+		fr.add(tf2);
+		
+		bt1.setBounds(150,180,100,30);
+		fr.add(bt1);
+		bt2.setBounds(260,180,100,30);
+		fr.add(bt2);
+	}
+	public static void main(String[] args) {
+		new LoginForm();
+	}
+}
