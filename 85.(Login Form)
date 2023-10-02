@@ -10,6 +10,9 @@ public class LoginForm {
 	JPasswordField tf2=new JPasswordField();
 	JButton bt1=new JButton("Login");
 	JButton bt2=new JButton("cancel");
+	JRadioButton r1=new JRadioButton("Male");
+	JRadioButton r1=new JRadioButton("Female",true);
+
 	public LoginForm(){
 		fr.setSize(400,300);
 		fr.setLocationRelativeTo(null); //to show frame at the center of the screen
@@ -32,7 +35,23 @@ public class LoginForm {
 		fr.add(l2);
 		tf2.setBounds(150,110,200,30);
 		fr.add(tf2);
+		addRadioButton();
 		
+	}
+
+	public void addRadioButton(){
+		ButtonGroup group=new ButtonGroup();
+		group.add(r1);
+		group.add(r2);
+		r1.setBounds(150,180,100,30);
+		r2.setBounds(250,180,100,30);
+		fr.add(r1);
+		r1.setFont(font);
+		r1.setFont(font);
+		fr.add(r2);
+	}
+
+	public void addButton(){
 		bt1.setBounds(150,180,100,30);
 		fr.add(bt1);
 		bt2.setBounds(260,180,100,30);
