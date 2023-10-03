@@ -1,7 +1,6 @@
 import java.awt.Font;
 
 import javax.swing.*; //all classes comes in this package thats why we use * if we use javax.swing.button then only button class will be import 
-
 public class LoginForm {
 	JFrame fr=new JFrame("Login Form");
 	JLabel l1=new JLabel("Enter ID");
