@@ -21,6 +21,7 @@ public class LoginForm {
 		addComponent(); //we made this method so that this code in constructor will not become heavy
 		fr.setVisible(true);
 	}
+
 	private void addComponent() {
 		Font font=new Font("arial",0,19);
 		l1.setBounds(30,50,120,30);
