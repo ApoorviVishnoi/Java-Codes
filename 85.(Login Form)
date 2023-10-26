@@ -1,5 +1,6 @@
 import java.awt.Font;
 import javax.swing.*; //all classes comes in this package thats why we use * if we use javax.swing.button then only button class will be import 
+
 public class LoginForm {
 	JFrame fr=new JFrame("Login Form");
 	JLabel l1=new JLabel("Enter ID");
@@ -20,7 +21,8 @@ public class LoginForm {
 		fr.setVisible(true);
 	}
 
-	private void addComponent() {
+	private void addComponent() 
+        {
 		Font font=new Font("arial",0,19);
 		l1.setBounds(30,50,120,30);
 		l1.setFont(font);
@@ -38,7 +40,8 @@ public class LoginForm {
 		
 	}
 
-	public void addRadioButton(){
+	public void addRadioButton()
+        {
 		ButtonGroup group=new ButtonGroup();
 		group.add(r1);
 		group.add(r2);
