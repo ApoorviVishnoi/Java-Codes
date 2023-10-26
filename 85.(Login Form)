@@ -50,7 +50,6 @@ public class LoginForm {
 		r1.setFont(font);
 		fr.add(r2);
 	}
-
 	public void addButton(){
 		bt1.setBounds(150,180,100,30);
 		fr.add(bt1);
