@@ -58,7 +58,6 @@ public class LoginForm {
 		bt2.setBounds(260,180,100,30);
 		fr.add(bt2);
 	}
-
 	public static void main(String[] args) {
 		new LoginForm();
 	}
